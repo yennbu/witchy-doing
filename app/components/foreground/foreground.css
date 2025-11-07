@@ -1,0 +1,14 @@
+/* IMG */
+img {
+    position: fixed;
+}
+
+.mushrooms {
+    right: 0;
+    bottom: 0;
+}
+
+.cat {
+    left: -3rem;
+    bottom: -1rem;
+}

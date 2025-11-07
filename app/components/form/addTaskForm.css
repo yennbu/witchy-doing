@@ -1,0 +1,14 @@
+.addTaskForm__input {
+    background-color: #F5F5F5;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.addTaskForm__btn {
+    background-color: #556C2B;
+    color: #F5F5F5;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: "Caudex", serif;
+    cursor: pointer;
+}
