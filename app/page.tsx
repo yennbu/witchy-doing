@@ -3,6 +3,10 @@ import { useState, useEffect, FormEvent } from "react";
 import Image from "next/image";
 import Background from "./components/background/background";
 import Foreground from "./components/foreground/foreground";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
+
 import AddTaskBtn from "./components/buttons/addTaskBtn";
 import AddTaskForm from "./components/form/addTaskForm";
 
@@ -46,7 +50,8 @@ export default function Home() {
                   className="tasklist__remove-btn"
                   onClick={() => deleteFromLocalStorage(task)}
                 >
-                  Remove
+                          <FontAwesomeIcon icon={faTrash} />
+
                 </button>
               </li>
             ))}
