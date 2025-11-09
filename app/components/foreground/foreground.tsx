@@ -8,14 +8,14 @@ export default function Foreground() {
                 src="/cat.png"
                 alt="Illustration of a cat"
                 className="img cat"
-                width={250}
+                width={200}
                 height={200}
             />
             <Image
                 src="/mushrooms.png"
                 alt="Illustration of mushrooms, pupkins and ferns"
                 className="img mushrooms"
-                width={300}
+                width={250}
                 height={200}
             />
         </div>
