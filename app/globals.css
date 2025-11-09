@@ -71,7 +71,7 @@ body {
 }
 
 .tasklist {
-  height: 53vh;
+  height: 45vh;
   position: relative;
   overflow-y: auto;
 }
@@ -103,8 +103,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 20%;
 }
 
 .addTaskForm__input {
