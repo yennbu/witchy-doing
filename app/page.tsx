@@ -37,9 +37,7 @@ export default function Home() {
     <div className="">
       <main className="">
         <Background />
-        <h1 className="title">
-          Witchy <span className="title--doings"> doings </span>
-        </h1>
+        <h1 className="title"> Witchy doings </h1>
 
         <div className="tasklist-container">
           <ul className="tasklist">
