@@ -64,7 +64,7 @@ export default function Home() {
               placeholder="New task..."
             />
             <button className="addTaskForm__btn" type="submit">
-              Add Task
+              Add
             </button>
           </form>
         </div>
