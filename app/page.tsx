@@ -54,6 +54,8 @@ export default function Home() {
               </li>
             ))}
           </ul>
+          
+            <Foreground />
 
           <form className="addTaskForm" onSubmit={saveToLocalStorage}>
             <input
@@ -69,7 +71,6 @@ export default function Home() {
           </form>
         </div>
 
-        <Foreground />
       </main>
     </div>
   );

@@ -3,12 +3,30 @@ img {
     position: fixed;
 }
 
+.foreground {
+    z-index: -1;
+    pointer-events: none;
+}
+
 .mushrooms {
-    right: 1rem;
+    right: 1%;
     bottom: 0;
+    width: 65%;
+
 }
 
 .cat {
-    left: -1rem;
+    left: -1%;
     bottom: -1rem;
+    width: 55%;
+}
+
+@media (min-width: 768px) {
+    .mushrooms {
+        width: 40%;
+    }
+
+    .cat {
+        width: 30%;
+    }
 }
